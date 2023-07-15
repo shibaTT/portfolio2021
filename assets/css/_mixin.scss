@@ -1,0 +1,11 @@
+@mixin globalLinkBar($bgColor){
+    position: relative;
+    width: 80%;
+    display: block;
+    content: '';
+    left: 50%;
+    padding-top: 4px;
+    border-bottom: 4px solid $bgColor;
+    transform: translateX(-50%);
+    transition: .2s;
+}
